@@ -1,0 +1,31 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Rock+Salt&display=swap");
+
+
+
+
+.container-fluid {
+  margin: 0;
+ padding: 0;
+ background-color: #000;
+}
+
+
+
+.display-1{
+    font-family: "Libre Barcode 39 Text", cursive; 
+    font-size: 8vmax;
+    font-weight: 400;
+    text-align: center;
+   margin:0 auto;   
+}
+
+.lead {
+font-family: "Libre Barcode 39 Text", cursive; 
+font-size: 5vmax;
+font-weight: 400;
+text-align: center;
+margin:0;
+}
+
