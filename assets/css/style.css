@@ -1,16 +1,16 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Rock+Salt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family&display=swap");
 
-
-
-
-.container-fluid {
-  margin: 0;
- padding: 0;
- background-color: #000;
+body {
+background-color:#000;
 }
 
+* { 
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
 
 
 .display-1{
@@ -18,14 +18,103 @@
     font-size: 8vmax;
     font-weight: 400;
     text-align: center;
-   margin:0 auto;   
+  position:absolute;
+top: 40%;
+left: 50%;
+transform:translate(-50%,-50%);
+width: 100%;    
 }
 
-.lead {
-font-family: "Libre Barcode 39 Text", cursive; 
-font-size: 5vmax;
-font-weight: 400;
+.display-3  {
+font-family:"Sans Family";
+font-size: 4vmax;
 text-align: center;
-margin:0;
+position:absolute;
+top: 37%;
+left:50%;
+transform:translate(-50%,-50%);
+ color: #f8f9fa;
+ width:100%;
 }
+
+
+.navbar {
+position:absolute;
+top: 60%;
+left:50%;
+transform:translate(-50%,-50%);
+background: #000;
+padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+a {
+color:#6c757d;
+text-align:center;
+text-decoration:none;
+padding:0;
+display:inline-flex;
+font-weight:bold;
+width: 100%;
+font-size: 2vmax;
+margin-right: 100px;
+font-family:"Sans Family";
+
+}
+
+a:hover {
+    transform: scale(1.2);
+color:#f8f9fa;
+transition:0.3s linear;
+}
+
+
+
+
+.social-links a {
+  text-decoration: none;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  -webkit-appearance: none;
+}
+
+.social-links i {
+margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+   transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  -webkit-appearance: none;
+}
+
+.social-links  a:hover {
+    transform: rotate(360deg) scale(1.2);
+
+}
+
+.social-links  i:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+
+.text-center {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+
+
+@media all and (max-width: 1199.98px) { 
+    .display-3 {
+        top: 38%;
+    }
+}
+
 
