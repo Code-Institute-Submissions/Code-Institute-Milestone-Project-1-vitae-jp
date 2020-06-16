@@ -480,3 +480,9 @@ transform: rotate(35deg);
     }
 }
 
+@media all and (max-width: 1199.98px) {
+  .btn-link  {
+       font-size: 5vmax; 
+        
+    }
+}
