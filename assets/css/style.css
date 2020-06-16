@@ -29,8 +29,20 @@ body {
  top: 40%;
  left: 50%;
  transform:translate(-50%,-50%);
- width: 100%;    
+ width: 100%; 
+animation-name: name;
+  animation-duration: 8s;
+animation-timing-function: linear;
+  color: #6c757d;
 }
+
+   @keyframes name {
+  0%   {color:#000;}
+  100% {color: #6c757d;}
+  
+}
+
+
 
 .display-3  {
  font-family:"Sans Family";
@@ -79,7 +91,6 @@ p {
 
 
 a {
- color:#6c757d;
  text-align:center;
  text-decoration:none;
  padding:0;
@@ -89,6 +100,10 @@ a {
  font-size: 2vmax;
  margin-right: 100px;
  font-family:"Sans Family";
+ animation-name: name;
+  animation-duration: 8s;
+animation-timing-function: linear;
+  color: #6c757d;
 }
 
 a:hover {
