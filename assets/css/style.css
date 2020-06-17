@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap|Montserrat:ital,wght@1,500&");
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 
 /*-- General --*/
@@ -17,8 +18,7 @@ body {
  box-sizing:border-box;
 }
 
-/*-- Headings, paragraphs, --*/
-
+/*-- Index.html --*/
 
 .display-1{
  font-family: "Libre Barcode 39 Text", cursive; 
@@ -34,14 +34,13 @@ animation-name: name;
   animation-duration: 5s;
 animation-timing-function: linear;
   color: #fff;
-  
 }
 
 @keyframes name {
   0%   {color:#000;}
   100% {color: #fff;}
-  
 }
+
 .display-3  {
  font-family:"Sans Family";
  font-size: 4vmax;
@@ -55,35 +54,12 @@ animation-timing-function: linear;
 animation-timing-function: linear;
  color: #000;
  width:100%;
- 
 }
 
 @keyframes sub {
   0%   {color: #f8f9fa;}
   100% {color: #000;}
-  
 }
-
-
-.display-2 {
-   font-family: "Libre Barcode 39 Text", cursive; 
-   font-weight: 400;
- font-size: 4vmax;
- color: #fff;
- padding-top: 10px;
- margin:0 auto;
-text-align: center;
-}
-
-
-p {
-   font-family: "Montserrat", sans-serif;
- font-size: 16px;
- text-align: center;
- color: #f8f9fa;
- margin: 0 auto;
-}
-
 
 /*-- Navigation --*/
 
@@ -97,7 +73,6 @@ p {
  padding-right: 0px;
 }
 
-
 a {
  color:#fff;
  text-align:center;
@@ -109,9 +84,6 @@ a {
  font-size: 2vmax;
  margin-right: 100px;
  font-family:"Sans Family";
- animation-name: name;
-  animation-duration: 5s;
-animation-timing-function: linear;
 }
 
 a:hover {
@@ -119,6 +91,8 @@ a:hover {
  color:#f8f9fa;
  transition:0.3s linear;
 }
+
+/*-- Footer --*/
 
 .social-links a {
   text-decoration: none;
@@ -154,67 +128,25 @@ a:hover {
  padding-right: 0;
 }
 
-.fixed-top {
-    overflow: hidden;
-}
-.fixed-top a {
-    text-decoration: none; 
-}
-
-.fixed-top i {
-    text-decoration: none;
-    font-size: 2vmax;
- margin:0 auto;
-text-align: center;
-padding-top: 10px;
-color: #fff;
-}
-
-.top {
-    overflow: hidden;
-}
-
-.top a {
-  text-decoration: none; 
-}
-
-.top i {
-    text-decoration: none;
-    font-size: 2vmax;
- margin:0 auto;
-text-align: center;
-padding-top: 10px;
-color: #fff;
-}
-
-.social-footer-heading {
-    text-align: center;
-    margin:0 auto;
-}
-
-.social-footer-heading i {
-    font-size: 24px;
-     text-align: center;
-    margin:0 auto;
-}
-
-.download-footer-heading a  {
-    font-size: 24px;
-    text-decoration: none;
-     text-align: center;
-    margin:0 auto;
-    color: #fff;
-}
-
-.download-footer-heading i  {
-    font-size: 24px;
-    text-decoration: none;
-     text-align: center;
-    margin:0 auto;
-    color: #fff;
-}
-
 /*-- Portfolio and reviews.html --*/
+
+.display-2 {
+   font-family: "Libre Barcode 39 Text", cursive; 
+   font-weight: 400;
+ font-size: 4vmax;
+ color: #fff;
+ padding-top: 10px;
+ margin:0 auto;
+text-align: center;
+}
+
+p {
+   font-family: "Montserrat", sans-serif;
+ font-size: 16px;
+ text-align: center;
+ color: #f8f9fa;
+ margin: 0 auto;
+}
 
 .slideshow-container {
    position:absolute;
@@ -306,10 +238,7 @@ height: 150px;
  left: 50%;
  transform:translate(-50%,-50%);
  width: 100%;
- 
 }
-
-
 
 .align-items-center {
     margin-left: 0;
@@ -321,7 +250,7 @@ height: 150px;
     padding: 0;
 }
 
-    .btn-link{
+.btn-link{
          font-family: "Libre Barcode 39 Text", cursive; 
     font-weight: 400;
     color: #fff;
@@ -331,7 +260,6 @@ height: 150px;
 
 .card-body {
     background: #fff;
-
 }
 
 .card-body p {
@@ -341,8 +269,15 @@ color: #000;
 text-align: justify;
 }
 
-.col-6{
+.personal-col{
 font-family: "Montserrat", sans-serif;
+ font-size: 16px;
+color: #000;
+text-align: justify;
+}
+
+.personal-answers-col {
+    font-family: "Montserrat", sans-serif;
  font-size: 16px;
 color: #000;
 text-align: justify;
@@ -350,9 +285,9 @@ text-align: justify;
 
 .card-body i {
     text-decoration: none;
-    font-size: 1.5vmax;
+    font-size: 1.2vmax;
     padding-left: 5px;
-   
+   color: #000;
 }
 
 .btn:focus {
@@ -384,8 +319,8 @@ animation-timing-function: linear;
 transform: rotate(35deg);
  animation-iteration-count: infinite;
   animation-direction: alternate;
-  padding: 0;
-   
+  padding: 0; 
+  font-family: 'Monoton', cursive
 }
 
 .left-side{
@@ -400,16 +335,71 @@ transform: rotate(35deg);
     padding: 0;
 }
 
-
 @keyframes details-center-text {
   0%   {transform: rotate(35deg);}
   50% {transform: rotate(-35deg);}
   100%   {transform: rotate(35deg);}
 }
 
+/*-- Closing tab --*/
 
+.fixed-top {
+    overflow: hidden;
+}
+.fixed-top a {
+    text-decoration: none; 
+}
+
+.fixed-top i {
+    text-decoration: none;
+    font-size: 2vmax;
+ margin:0 auto;
+text-align: center;
+padding-top: 10px;
+color: #fff;
+}
+
+/*-- Footer --*/
+
+.social-footer-heading {
+    text-align: center;
+    margin:0 auto;
+    padding-bottom: 5px;
+}
+
+.social-footer-heading i {
+    font-size: 24px;
+     text-align: center;
+    margin:0 auto;
+}
+
+.download-footer-heading {
+    padding-bottom: 5px;
+}
+
+.about-footer-heading {
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.download-footer-heading a  {
+    font-size: 24px;
+    text-decoration: none;
+     text-align: center;
+    margin:0 auto;
+    color: #fff;
+}
+
+.download-footer-heading i  {
+    font-size: 24px;
+    text-decoration: none;
+     text-align: center;
+    margin:0 auto;
+    color: #fff;
+}
 
 /*-- @media rules --*/
+/*-- Index.html --*/
 
 @media all and (max-width: 1199.98px) { 
     .display-3 {
@@ -419,47 +409,35 @@ transform: rotate(35deg);
 
 
 @media all and (max-width: 575.98px) { 
-    .col-md-auto {
-        width: 10%;
+    .display-1 {
+        font-size: 10vmax;
     }
 }
+
+@media all and (max-width: 575.98px) { 
+    .display-3{
+        font-size: 5vmax;
+    }
+}
+
+@media all and (max-width: 575.98px) { 
+    a {
+        font-size: 4vmax;
+    }
+}
+
+/*--Portfolio and revies.html --*/
 
 @media all and (max-width: 1199.98px) { 
     .display-2 {
-       font-size: 4.5vmax;
+       font-size: 6vmax;
     }
 }
 
-@media all and (max-width: 1199.98px) { 
-    .fixed-top i{
-       font-size: 3vmax;
+@media all and (max-width: 575.98px) { 
+    .display-2 {
+       font-size: 5.5vmax;
     }
-}
-
-@media all and (max-width: 1199.98px) { 
-   .social-footer-heading i {
-        font-size: 2vmax;
-    }
-}
-
-@media all and (max-width: 1199.98px) { 
-   .about-footer-heading p {
-        font-size: 1.8vmax;
-        margin-left: 2px;
-       margin-right: 2px;
-    }
-}
-
-@media (max-width: 991.98px) {
-.order-sm-1 {
-    order: -1;
-}
-}
-
-@media all and (max-width: 1199.98px) { 
-     .contact-footer-heading i {
-        font-size: 2vmax;
-     }
 }
 
 @media all and (max-width: 1199.98px) { 
@@ -493,31 +471,54 @@ transform: rotate(35deg);
     }
 }
 
+/*-- Details.html --*/
+
 @media all and (max-width: 1199.98px) {
   #details-center p  {
-       font-size: 150px; 
-        
+       font-size: 100px; 
     }
 }
 
 @media all and (max-width: 575.98px) {
   #details-center p  {
-       font-size: 50px; 
-        
+       font-size: 40px; 
+    }
+}
+
+
+@media all and (max-width: 1199.98px) {
+  .btn-link  {
+       font-size: 5vmax; 
     }
 }
 
 @media all and (max-width: 575.98px) {
   .btn-link  {
        font-size: 5vmax; 
-        
+    }
+}
+
+@media all and (max-width: 575.98px) {
+  .card-body  {
+       padding-top: 0px;
+    padding-bottom: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
     }
 }
 
 @media all and (max-width: 1199.98px) {
-  .btn-link  {
-       font-size: 3.5vmax; 
-        
+  .card-body  {
+       padding-top: 0px;
+    padding-bottom: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+}
+
+@media all and (max-width: 1199.98px) {
+  .card-body p {
+       font-size: 18px;
     }
 }
 
@@ -526,28 +527,26 @@ transform: rotate(35deg);
        font-size: 10px;
     }
 }
-
-
-@media all and (max-width: 1199.98px) {
-  .card-body p {
-       font-size: 16px;
-    }
-}
-
-
-@media all and (max-width: 575.98px) {
-  .card-body a {
-       font-size: 10px;
-    }
-}
-
 
 @media all and (max-width: 1198.98px) {
   .card-body a {
        font-size: 14px;
+       color: #000;
     }
 }
 
+@media all and (max-width: 575.98px) {
+  .card-body a {
+       font-size: 10px;
+       color:000;
+    }
+}
+
+@media all and (max-width: 1199.98px) {
+  .card-body i {
+       font-size: 30px;
+    }
+}
 
 @media all and (max-width: 575.98px) {
   .card-body i {
@@ -555,22 +554,28 @@ transform: rotate(35deg);
     }
 }
 
-
 @media all and (max-width: 1199.98px) {
-  .card-body i {
-       font-size: 14px;
+  .personal-col {
+       font-size: 20px;
     }
 }
 
 @media all and (max-width: 575.98px) {
-  .col-6 {
-       font-size: 10px;
+  .personal-col {
+       font-size: 12px;
     }
 }
 
+
 @media all and (max-width: 1199.98px) {
-  .col-6 {
-       font-size: 16px;
+  .personal-answers-col {
+       font-size: 20px;
+    }
+}
+
+@media all and (max-width: 575.98px) {
+  .personal-answers-col {
+       font-size: 12px;
     }
 }
 
@@ -581,10 +586,133 @@ transform: rotate(35deg);
 }
 
 @media all and (max-width: 1199.98px) {
-  .container-details{
-      
- top: 40%;
+  .container-details{     
+ top: 50%;
  padding: 0;
     }
 }
+
+@media all and (max-width: 575.98px) {
+  .container-details{ 
+ top: 50%;
+ padding: 0;
+    }
+}
+
+/*-- Headings and closing tab --*/
+
+@media all and (max-width: 575.98px) { 
+    .close-tab {
+        width: 10%;
+    }
+}
+
+@media all and (max-width: 1199.98px) { 
+    .fixed-top i{
+       font-size: 3vmax;
+    }
+}
+
+/*-- Footer --*/
+
+@media all and (max-width: 1199.98px) { 
+   .social-links i {
+        font-size: 2.5vmax;
+        padding-bottom: 15px;
+    }
+}
+
+@media all and (max-width: 575.98px) { 
+   .social-links i {
+        font-size: 3vmax;
+    }
+}
+
+@media all and (max-width: 1199.98px) { 
+   .social-links a {
+        font-size: 2.5vmax;
+        padding-bottom: 15px;
+    }
+}
+
+@media all and (max-width: 575.98px) { 
+   .social-links a {
+        font-size: 3vmax;
+        padding-bottom: 0;
+    }
+}
+
+@media all and (max-width: 1199.98px) { 
+   .about-footer-heading p {
+        font-size: 1.8vmax;
+        margin-left: 2px;
+       margin-right: 2px;
+    }
+}
+
+@media all and (max-width: 575.98px) { 
+   .about-footer-heading p {
+        font-size: 2vmax;
+        margin-left: 2px;
+       margin-right: 2px;
+        font-family: "Montserrat", sans-serif;
+    }
+}
+
+@media (max-width: 991.98px) {
+.order-sm-1 {
+    order: -1;
+    padding-bottom: 0;
+}
+}
+
+@media all and (max-width: 1199.98px) { 
+     .contact-footer-heading i {
+        font-size: 2vmax;
+     }
+}
+
+@media all and (max-width: 1199.98px) {
+  .download-footer-heading i {
+    font-size: 2vmax;
+}
+}
+
+@media all and (max-width: 575.98px) {
+  .download-footer-heading i {
+    font-size: 16px;
+}
+}
+
+@media all and (max-width: 1199.98px) {
+  .download-footer-heading p {
+    font-size: 20px;
+     padding-bottom: 2px;
+     padding-top: 2px;
+}
+}
+
+@media all and (max-width: 575.98px) {
+  .download-footer-heading p {
+    font-size: 16px;
+     
+}
+}
+
+@media all and (max-width: 575.98px) {
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+}
+
+@media all and (max-width: 575.98px) {
+    .social-links {
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
 
