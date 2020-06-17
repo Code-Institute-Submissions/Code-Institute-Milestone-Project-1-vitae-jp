@@ -27,10 +27,10 @@
 		<div class="container-fluid fixed-top">
 			<div class="row">
 				<div class="col">					
-							<h1 class="display-2">Contact Joan Poa</h1>  		
+							<h1 class="display-2">Contact JP</h1>  		
 				</div>
 
-                           <div class="col-md-auto">
+                           <div class="col-md-auto close-tab">
 							<a target="_self" href="index.html"><i class="fa fa-times-circle" aria-hidden="true" title="Return to Homepage" ></i><span class="sr-only">Close window</span></a>
 						
                            </div>	
@@ -40,11 +40,56 @@
 	</header>
         
 
+<div class="container form-container">
+<form action="#" method="post">
+ <div class="form-group">
+<label for="name">Name:</label><input type="text" class="form-control" id="name" minlength="2" maxlength="20"  required /></div>
+
+
+<div class="form-group">
+<label for="surname">Last Name:</label>
+<input type="text" class="form-control" id="surname" minlength="2" maxlength="20" required /></div>
+
+<div class="form-group">
+<label for="email">Email address:</label>
+<input type="email" class="form-control" id="email" required /></div>
+
+<div class="form-group">
+<label for="message">Message:</label>
+<textarea class="form-control" rows="5" id="message" required></textarea></div>
+<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Send
+</button></form></div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Apologies, this service is unavailable at this time.
+        <br>Contact Jp at<br><br> <strong>089 711 4589</strong><br>
+        or<br><strong>joanpoa@bold.com</strong>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+     
+  </div>
+</div>
+</div>
+
 
  
+
   <footer class="footer fixed-bottom">
   <div class="row">
-						<div class="d-none d-lg-block col-xl-4 order-xl-1 about-footer-heading">
+						<div class="d-none d-xl-block col-xl-4 order-xl-1 about-footer-heading">
 
 							
 							<p class="inline-block">
@@ -55,7 +100,7 @@
 						</div>
 
 						
-        <div class="col-xl-4 order-xl-2 social-footer-heading">
+        <div class="col-xl-4 order-xl-2 order-sm-2 social-footer-heading">
             <ul class="social-links d-inline-flex">
 
 				<li class="list-inline-item">
@@ -82,7 +127,7 @@
 			</ul>
         </div>   
 
-        <div class="d-none d-lg-block col-xl-4 order-xl-3 contact-footer-heading">
+        <div class=" col-xl-4 order-xl-3 order-sm-1 download-footer-heading">
 
 							<a href="JP.pdf" target="_blank" class="cv-pdf">
 									<i class="fa fa-download" aria-hidden="true"></i>
@@ -91,8 +136,8 @@
 								
 							
 						</div>   
-  </div>                  
-    </footer>
+  </div>
+  </footer>
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
