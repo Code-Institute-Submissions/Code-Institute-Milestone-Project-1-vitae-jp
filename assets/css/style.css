@@ -20,7 +20,7 @@ body {
 
 /*-- Index.html --*/
 
-.display-1{
+.display-1 {
  font-family: "Libre Barcode 39 Text", cursive; 
  font-size: 8vmax;
  font-weight: 400;
@@ -232,7 +232,7 @@ p {
 
 /*-- Details.html --*/
 
-.container-details{
+.container-details {
  position:absolute;
  top: 50%;
  left: 50%;
@@ -245,12 +245,12 @@ p {
  margin: 0;
 }
 
-.card{
+.card {
  background-color: #000;
  padding: 0;
 }
 
-.btn-link{
+.btn-link {
  font-family: "Libre Barcode 39 Text", cursive; 
  font-weight: 400;
  color: #fff;
@@ -323,15 +323,15 @@ p {
  font-family: 'Monoton', cursive
 }
 
-.left-side{
+.left-side {
  padding: 0;
 }
 
-.right-side{
+.right-side {
  padding:0;
 }
 
-.center-side{
+.center-side {
  padding: 0;
 }
 
@@ -346,6 +346,7 @@ p {
 .fixed-top {
  overflow: hidden;
 }
+
 .fixed-top a {
  text-decoration: none; 
 }
@@ -362,46 +363,46 @@ p {
 /*-- Footer --*/
 
 .social-footer-heading {
-    text-align: center;
-    margin:0 auto;
-    padding-bottom: 5px;
+ text-align: center;
+ margin:0 auto;
+ padding-bottom: 5px;
 }
 
 .social-footer-heading i {
-    font-size: 24px;
-     text-align: center;
-    margin:0 auto;
+ font-size: 24px;
+ text-align: center;
+ margin:0 auto;
 }
 
 .download-footer-heading {
-    padding-bottom: 5px;
+ padding-bottom: 5px;
 }
 
 .about-footer-heading {
-    padding-bottom: 5px;
-    padding-right: 5px;
+ padding-bottom: 5px;
+ padding-right: 5px;
 }
 
 .download-footer-heading a  {
-    font-size: 24px;
-    text-decoration: none;
-     text-align: center;
-    margin:0 auto;
-    color: #fff;
+ font-size: 24px;
+ text-decoration: none;
+ text-align: center;
+ margin:0 auto;
+ color: #fff;
 }
 
 .download-footer-heading i  {
-    font-size: 24px;
-    text-decoration: none;
-     text-align: center;
-    margin:0 auto;
-    color: #fff;
+ font-size: 24px;
+ text-decoration: none;
+ text-align: center;
+ margin:0 auto;
+ color: #fff;
 }
 
 /*-- Contact-me.html --*/
 
 .form-container {
-     position:absolute;
+ position:absolute;
  top: 50%;
  left: 50%;
  transform:translate(-50%,-50%);
@@ -409,62 +410,62 @@ p {
  background-color: #fff;
 }
 
-.form-group{
-    text-align: center;
-    color: #000;
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-  
+.form-group {
+ text-align: center;
+ color: #000;
+ font-family: "Montserrat", sans-serif;
+ font-size: 24px;
 }
 
 .form-control {
-    background-color: #000;
-    color: #fff;
-    border-color: none;
+ background-color: #000;
+ color: #fff;
+ border-color: none;
 }
 
 .form-control::selection {
-    border: none;
+ border: none;
 }
+
 .btn-primary {
-     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-    color:#fff;
-    background-color: #000;
-    border-color: #fff;
-    margin-bottom: 5px;
+ font-family: "Montserrat", sans-serif;
+ font-size: 24px;
+ color:#fff;
+ background-color: #000;
+ border-color: #fff;
+ margin-bottom: 5px;
 }
 
-.btn-primary:hover{
-    color: #000;
-    background-color: #fff;
-    border-color: #000;
+.btn-primary:hover {
+ color: #000;
+ background-color: #fff;
+ border-color: #000;
 }
 
-.btn-primary:not{
-    background-color: #000;
-    border-color: #fff;
+.btn-primary:not {
+ background-color: #000;
+ border-color: #fff;
 }
 
 .btn-primary.focus {
-     background-color: #000;
-    border-color: #fff;
+ background-color: #000;
+ border-color: #fff;
 }
 
 .btn-primary:focus {
-     background-color: #000;
-    border-color: #fff;
+ background-color: #000;
+ border-color: #fff;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active{
-    background-color: #000;
-    border-color: #fff;
+.btn-primary:not(:disabled):not(.disabled):active {
+ background-color: #000;
+ border-color: #fff;
 }
 
 .modal-body {
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    text-align: center;
+ font-family: "Montserrat", sans-serif;
+ font-size: 20px;
+ text-align: center;
 }
 
 /*-- @media rules --*/
@@ -472,45 +473,44 @@ p {
 
 @media all and (max-width: 1199.98px) { 
     .display-3 {
-        top: 38%;
+     top: 38%;
     }
 }
 
 @media all and (max-width: 1199.98px) { 
     .display-1 {
-        font-size: 12vmax;
+     font-size: 12vmax;
     }
 }
 
 @media all and (max-width: 575.98px) { 
     .display-1 {
-        font-size: 10vmax;
+     font-size: 10vmax;
     }
 }
 
 @media all and (max-width: 1199.98px) { 
-    .display-3{
-        font-size: 6vmax;
+    .display-3 {
+     font-size: 6vmax;
     }
 }
 
 
 @media all and (max-width: 575.98px) { 
-    .display-3{
-        font-size: 5vmax;
+    .display-3 {
+     font-size: 5vmax;
     }
 }
 
-
 @media all and (max-width: 1199.98px) { 
     a {
-        font-size: 4vmax;
+     font-size: 4vmax;
     }
 }
 
 @media all and (max-width: 575.98px) { 
     a {
-        font-size: 4vmax;
+      font-size: 4vmax;
     }
 }
 
@@ -518,43 +518,43 @@ p {
 
 @media all and (max-width: 1199.98px) { 
     .display-2 {
-       font-size: 6vmax;
+     font-size: 6vmax;
     }
 }
 
 @media all and (max-width: 575.98px) { 
     .display-2 {
-       font-size: 5.5vmax;
+     font-size: 5.5vmax;
     }
 }
 
 @media all and (max-width: 1199.98px) { 
-     .carousel-control-prev {
-    margin-right:  0;
-    font-size: xx-large;
-    bottom: 50px;
-} 
+    .carousel-control-prev {
+     margin-right:  0;
+     font-size: xx-large;
+     bottom: 50px;
+    } 
 }
 
 @media all and (max-width: 1199.98px) { 
-     .carousel-control-next {
-    margin-right:  0;
+    .carousel-control-next {
+     margin-right:  0;
      font-size: xx-large;
      bottom: 50px;
-} 
+    } 
 }
 
 @media all and (max-width: 1199.98px) {
     .carousel-caption {
-        position: relative;
-        left: 0;
-        top: 0;
+    position: relative;
+     left: 0;
+     top: 0;
     }
 }
 
 @media (min-width:767px) and (max-width:1024px) {
-    .carousel-caption p{
-        font-size: 1.3rem;   
+    .carousel-caption p {
+     font-size: 1.3rem;   
     }
 }
 
@@ -562,75 +562,75 @@ p {
 
 @media all and (max-width: 1199.98px) {
   #details-center p  {
-       font-size: 100px; 
+     font-size: 100px; 
     }
 }
 
 @media all and (max-width: 575.98px) {
   #details-center p  {
-       font-size: 40px; 
+     font-size: 40px; 
     }
 }
 
 @media all and (max-width: 1199.98px) {
   .btn-link  {
-       font-size: 5vmax; 
+     font-size: 5vmax; 
     }
 }
 
 @media all and (max-width: 575.98px) {
   .btn-link  {
-       font-size: 5vmax; 
+     font-size: 5vmax; 
     }
 }
 
 @media all and (max-width: 575.98px) {
   .card-body  {
-       padding-top: 0px;
-    padding-bottom: 1px;
-    padding-right: 5px;
-    padding-left: 5px;
+     padding-top: 0px;
+     padding-bottom: 1px;
+     padding-right: 5px;
+     padding-left: 5px;
     }
 }
 
 @media all and (max-width: 1199.98px) {
   .card-body  {
-       padding-top: 0px;
-    padding-bottom: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
+     padding-top: 0px;
+     padding-bottom: 1px;
+     padding-right: 10px;
+     padding-left: 10px;
     }
 }
 
 @media all and (max-width: 1199.98px) {
   .card-body p {
-       font-size: 18px;
+     font-size: 18px;
     }
 }
 
 @media all and (max-width: 575.98px) {
   .card-body p {
-       font-size: 10px;
+     font-size: 10px;
     }
 }
 
 @media all and (max-width: 1198.98px) {
   .card-body a {
-       font-size: 14px;
-       color: #000;
+     font-size: 14px;
+     color: #000;
     }
 }
 
 @media all and (max-width: 575.98px) {
   .card-body a {
-       font-size: 10px;
-       color:000;
+     font-size: 10px;
+     color:000;
     }
 }
 
 @media all and (max-width: 1199.98px) {
   .card-body i {
-       font-size: 30px;
+     font-size: 30px;
     }
 }
 
@@ -642,93 +642,92 @@ p {
 
 @media all and (max-width: 1199.98px) {
   .personal-col {
-       font-size: 20px;
+     font-size: 20px;
     }
 }
 
 @media all and (max-width: 575.98px) {
   .personal-col {
-       font-size: 12px;
+     font-size: 12px;
     }
 }
 
 @media all and (max-width: 1199.98px) {
   .personal-answers-col {
-       font-size: 20px;
+     font-size: 20px;
     }
 }
 
 @media all and (max-width: 575.98px) {
   .personal-answers-col {
-       font-size: 12px;
+     font-size: 12px;
     }
 }
 
 @media all and (max-width: 1199.98px) {
-  .card-header{
-       padding: 0;
+  .card-header {
+     padding: 0;
     }
 }
 
 @media all and (max-width: 1199.98px) {
-  .container-details{     
- top: 50%;
- padding: 0;
+    .container-details {     
+     top: 50%;
+     padding: 0;
     }
 }
 
 @media all and (max-width: 575.98px) {
-  .container-details{ 
- top: 50%;
- padding: 0;
+  .container-details { 
+     top: 50%;
+     padding: 0;
     }
 }
 
 /*-- Contact-me.html --*/
 
-
 @media all and (max-width: 1199.98px) {
- .form-container {     
- width: 60%;
+    .form-container {     
+     width: 60%;
     }
 }
 
 @media all and (max-width: 575.98px) {
- .form-container { 
- width: 100%;
+    .form-container { 
+     width: 100%;
     }
 }
 
 @media all and (max-width: 575.98px) {
-.form-group{   
-    font-size: 16px;
-    margin-bottom: 0;
-}
-}
-
-@media all and (max-width: 575.98px) {
-.btn-primary{   
-    font-size: 14px;
-}
+    .form-group {   
+     font-size: 16px;
+     margin-bottom: 0;
+    }
 }
 
 @media all and (max-width: 575.98px) {
-.modal-body{   
-    font-size: 14px;
+    .btn-primary {   
+     font-size: 14px;
+    }
 }
+
+@media all and (max-width: 575.98px) {
+    .modal-body {   
+     font-size: 14px;
+    }
 }
 
 /*-- Headings and closing tab --*/
 
 @media all and (max-width: 575.98px) { 
     .close-tab {
-        width: 10%;
+     width: 10%;
     }
 }
 
 @media all and (max-width: 1199.98px) { 
-    .fixed-top i{
-       font-size: 3vmax;
+    .fixed-top i {
+     font-size: 3vmax;
     }
 }
 
@@ -736,96 +735,96 @@ p {
 
 @media all and (max-width: 1199.98px) { 
    .social-links i {
-        font-size: 2.5vmax;
-        padding-bottom: 15px;
+     font-size: 2.5vmax;
+     padding-bottom: 15px;
     }
 }
 
 @media all and (max-width: 575.98px) { 
    .social-links i {
-        font-size: 3vmax;
+     font-size: 3vmax;
     }
 }
 
 @media all and (max-width: 1199.98px) { 
    .social-links a {
-        font-size: 2.5vmax;
-        padding-bottom: 15px;
+     font-size: 2.5vmax;
+     padding-bottom: 15px;
     }
 }
 
 @media all and (max-width: 575.98px) { 
    .social-links a {
-        font-size: 3vmax;
-        padding-bottom: 0;
+     font-size: 3vmax;
+     padding-bottom: 0;
     }
 }
 
 @media all and (max-width: 1199.98px) { 
    .about-footer-heading p {
-        font-size: 1.8vmax;
-        margin-left: 2px;
-       margin-right: 2px;
+     font-size: 1.8vmax;
+     margin-left: 2px;
+     margin-right: 2px;
     }
 }
 
 @media all and (max-width: 575.98px) { 
    .about-footer-heading p {
-        font-size: 2vmax;
-        margin-left: 2px;
-       margin-right: 2px;
-        font-family: "Montserrat", sans-serif;
+     font-size: 2vmax;
+     margin-left: 2px;
+     margin-right: 2px;
+     font-family: "Montserrat", sans-serif;
     }
 }
 
 @media (max-width: 991.98px) {
-.order-sm-1 {
-    order: -1;
-    padding-bottom: 0;
-}
+    .order-sm-1 {
+     order: -1;
+     padding-bottom: 0;
+    }
 }
 
 @media all and (max-width: 1199.98px) { 
-     .contact-footer-heading i {
-        font-size: 2vmax;
-     }
+    .contact-footer-heading i {
+     font-size: 2vmax;
+    }
 }
 
 @media all and (max-width: 1199.98px) {
   .download-footer-heading i {
-    font-size: 2.5vmax;
-}
+     font-size: 2.5vmax;
+    }
 }
 
 @media all and (max-width: 575.98px) {
   .download-footer-heading i {
-    font-size: 16px;
-}
+     font-size: 16px;
+    }
 }
 
 @media all and (max-width: 575.98px) {
   .download-footer-heading p {
-    font-size: 16px;   
-}
+     font-size: 16px;   
+   }
 }
 
 @media all and (max-width: 1199.98px) {
-  .download-footer-heading p{
-    font-size: 30px;
+  .download-footer-heading p {
+     font-size: 30px;
      padding-bottom: 2px;
      padding-top: 2px;
-}
+    }
 }
 
 @media all and (max-width: 575.98px) {
 .list-inline-item:not(:last-child) {
-    margin-right: 0;
-}
+     margin-right: 0;
+    }
 }
 
 @media all and (max-width: 575.98px) {
     .social-links {
-        margin-bottom: 0;
+     margin-bottom: 0;
     }
 }
 
