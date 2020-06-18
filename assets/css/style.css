@@ -420,7 +420,7 @@ p {
 .form-control {
  background-color: #000;
  color: #fff;
- border-color: none;
+ border-color: transparent;
 }
 
 .form-control::selection {
@@ -440,11 +440,6 @@ p {
  color: #000;
  background-color: #fff;
  border-color: #000;
-}
-
-.btn-primary:not {
- background-color: #000;
- border-color: #fff;
 }
 
 .btn-primary.focus {
@@ -631,7 +626,7 @@ p {
 @media all and (max-width: 575.98px) {
   .card-body a {
      font-size: 10px;
-     color:000;
+     color:#000;
     }
 }
 
