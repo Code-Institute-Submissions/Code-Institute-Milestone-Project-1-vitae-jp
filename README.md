@@ -29,7 +29,7 @@ I found the following links from recruiters describing the best 35 personal webs
 https://www.themuse.com/advice/the-35-best-personal-websites-weve-ever-seen
 https://www.myperfectresume.com/how-to/2018-best-resume-formats-according-to-recruiters
 
-I used this as baseline to create my website's first wireframe, an example of the index page.  
+I used this as a baseline to create my website's first wireframe, an example of the index page.  
 
 ![Example of wireframe](assets/image/wireframeindexv1.png)
 
@@ -43,7 +43,7 @@ An example of the index page after the interview of my target audience.
 
 ---
 
-###
+### **Technologies used** 
 
 
 
