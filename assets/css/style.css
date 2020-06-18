@@ -696,27 +696,33 @@ p {
 
 @media all and (max-width: 575.98px) {
     .form-container { 
-     width: 100%;
-    top: 35%;
+    width: 90%;
     }    
 }
 
 @media all and (max-width: 575.98px) {
+    .form-control {   
+     padding-bottom: 0;
+     padding-top: 0;
+    }
+}
+
+@media all and (max-width: 575.98px) {
     .form-group {   
-     font-size: 14px;
+     font-size: 12px;
      margin-bottom: 0;
     }
 }
 
 @media all and (max-width: 575.98px) {
     .btn-primary {   
-     font-size: 14px;
+     font-size: 12px;
     }
 }
 
 @media all and (max-width: 575.98px) {
     .modal-body {   
-     font-size: 14px;
+     font-size: 12px;
     }
 }
 
