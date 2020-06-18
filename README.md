@@ -31,7 +31,7 @@ https://www.myperfectresume.com/how-to/2018-best-resume-formats-according-to-rec
 
 I used this as a baseline to create my website's first wireframe, an example of the index page.  
 
-<img src="assets/image/wireframeindexv1.png" height="300" width="300">
+<img src="assets/image/wireframeindex.png" height="300" width="300">
 
 Through UX design process my website evolved and changed after reviews from my peers and mentor.  The biggest change to my website was an interview Code Institute has on SoundCloud with a recruiter, the recruiter (aka my target audience) spoke about images of an applicant being used.  I immediately removed images of the applicant and decided on a very minimal color scheme and eye catching Google fonts.  The interview is available here to listen to - https://soundcloud.com/codeinstitute/crafting-the-perfect-developer-cv.
 An example of the index page after the interview of my target audience.
