@@ -697,8 +697,9 @@ p {
 @media all and (max-width: 575.98px) {
     .form-container { 
      width: 65%;
-     height: 65%;
-    }
+    height: 65%;
+    top: 40%;
+    }    
 }
 
 @media all and (max-width: 575.98px) {
