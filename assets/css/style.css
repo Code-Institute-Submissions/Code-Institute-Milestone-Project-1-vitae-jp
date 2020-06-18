@@ -530,6 +530,12 @@ p {
     }
 }
 
+@media all and (max-width: 575.98px) { 
+    .slideshow-container {
+     top: 45%;
+    }
+}
+
 @media all and (max-width: 1199.98px) { 
     .carousel-control-prev {
      margin-right:  0;
@@ -780,8 +786,10 @@ p {
 @media all and (max-width: 575.98px) { 
    .about-footer-heading p {
      font-size: 2vmax;
-     margin-left: 2px;
-     margin-right: 2px;
+     padding-right: 3px;
+     padding-left: 3px;
+     margin-right: 5px;
+     margin-left: 5px;
     }
 }
 
