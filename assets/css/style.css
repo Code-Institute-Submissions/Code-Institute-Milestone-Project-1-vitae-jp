@@ -777,15 +777,15 @@ p {
 
 @media all and (max-width: 1199.98px) { 
    .about-footer-heading p {
-     font-size: 1.8vmax;
-     margin-left: 2px;
-     margin-right: 2px;
+     font-size: 2vmax;
+     margin-left: 5px;
+     margin-right: 5px;
     }
 }
 
 @media all and (max-width: 575.98px) { 
    .about-footer-heading p {
-     font-size: 2vmax;
+     font-size: 12px;
      padding-right: 3px;
      padding-left: 3px;
      margin-right: 5px;
@@ -814,7 +814,7 @@ p {
 
 @media all and (max-width: 575.98px) {
   .download-footer-heading i {
-     font-size: 16px;
+     font-size: 14px;
     }
 }
 
@@ -828,7 +828,7 @@ p {
 
 @media all and (max-width: 575.98px) {
   .download-footer-heading p {
-     font-size: 15px;   
+     font-size: 12px;
    }
 }
 
