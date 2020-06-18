@@ -83,7 +83,7 @@ a {
  width: 100%;
  font-size: 2vmax;
  margin-right: 100px;
- font-family:"Sans Family";
+ font-family:"Sans Family", sans-serif;
 }
 
 a:hover {
@@ -320,7 +320,7 @@ p {
  animation-iteration-count: infinite;
  animation-direction: alternate;
  padding: 0; 
- font-family: 'Monoton', cursive
+ font-family: 'Monoton', cursive;
 }
 
 .left-side {
@@ -773,7 +773,6 @@ p {
      font-size: 2vmax;
      margin-left: 2px;
      margin-right: 2px;
-     font-family: "Montserrat", sans-serif;
     }
 }
 
@@ -812,7 +811,7 @@ p {
 
 @media all and (max-width: 575.98px) {
   .download-footer-heading p {
-     font-size: 14px;   
+     font-size: 15px;   
    }
 }
 
