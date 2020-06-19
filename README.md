@@ -164,7 +164,7 @@ https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/man.jpg
 
 **3.** I added a name to the new repository.
 
-<img src="assets/image/githubname.png" height="300" width="800">
+<img src="assets/image/githubname.png" height="500" width="800">
 
 **4.** After I created the repository, I add a topic to explain what the project is about and click the Settings tab. 
 
