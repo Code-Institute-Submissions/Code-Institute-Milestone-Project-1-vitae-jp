@@ -5,7 +5,9 @@
 <img src="assets/image/jp-vitae-resume.png" height="400" width="600">
 
 ---
-## **Index:**
+
+**Index:**
+
 ---
 
 - **Introduction**
@@ -20,12 +22,15 @@
  ---
 
 **INTRODUCTION**
+
 ---
 
 This site is my first milestone project for my course provider - Code Institute. This website is an online fake persona resume with the goal not to be generic, to stand out and present all the information required in a creative way to my target audience - **Recruiters** and ultimately be hired.  
 
 ---
+
 **UX Design** 
+
 ---
 I found the following links from recruiters describing the best 35 personal websites ever viewed and the best resume format according to my target audience :
 
@@ -43,7 +48,9 @@ An example of the index page after the interview of my target audience.
 <img src="assets/image/wireframeindexv4.png" height="300" width="300">
 
 ---
+
 **Website Setup**
+
 ---
 
 **Index/Home page** - Main title with animation, navigation bar underneath that with links to 3 pages and in the footer social links.
@@ -60,7 +67,9 @@ An example of the index page after the interview of my target audience.
 As I continue to learn about Full Stack Development, I want to create a separate page for coding, contributions, etc.
 
 ---
+
 **Technologies used**
+
 ---
 
 **1.** HTML5: Language used to create web pages. https://developer.mozilla.org/en-US/docs/Web/HTML
@@ -108,7 +117,9 @@ for your GitHub or GitLab project with a single click.. https://www.gitpod.io/
 <img src="assets/image/googlefont.png" height="100" width="200">
 
 ---
+
 **Testing**
+
 ---
 
 **1.** W3C Markup Validator: I used it to check all my html pages (4) were error free. https://validator.w3.org/ 
@@ -127,6 +138,7 @@ for your GitHub or GitLab project with a single click.. https://www.gitpod.io/
 ---
 
 **Images**
+
 ---
 
 The images I used are from Code Institute's project Love Running. 
@@ -137,7 +149,9 @@ https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.
 https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/man.jpg
 
 ---
+
 **Deployment and Publishing**
+
 ---
 
 **1.** I signed up for a Github account.
@@ -175,7 +189,9 @@ Clone/Download.  Open on your desktop or download zip file to use this code whic
 <img src="assets/image/deployment.png" height="300" width="800">
 
 ---
+
 **Acknowledgements**
+
 ---
 
 The StackOverflow community with helping with vertical alignment. https://stackoverflow.com/
@@ -192,7 +208,9 @@ https://ng.linkedin.com/in/adegbenga-adeye-14003635
 
 
 ---
+
 **Final words**
+
 ---
 ## **"That's all, coders!"**
 
