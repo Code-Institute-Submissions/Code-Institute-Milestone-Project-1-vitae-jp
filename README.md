@@ -194,16 +194,16 @@ Clone/Download.  Open on your desktop or download zip file to use this code whic
 
 ---
 
-The StackOverflow community with helping with vertical alignment. https://stackoverflow.com/
+1. The StackOverflow community with helping with vertical alignment. https://stackoverflow.com/
 
-The Code Institute's projects':
-* Love Running
-* Whiskey Drop
-* Rosie Odenkirk resume
-which really created the foundation for this website.
-https://codeinstitute.net/
+2. The Code Institute's projects':
+    * Love Running
+    * Whiskey Drop
+    * Rosie Odenkirk resume,
+    
+    which really created the foundation for this website. https://codeinstitute.net/
 
-My mentor - Adegbenga Adeye, who really gave good advice about utilizing Bootstrap, motivated to see his students succeed.
+3. My mentor - Adegbenga Adeye, who really gave good advice about utilizing Bootstrap, motivated to see his students succeed.
 https://ng.linkedin.com/in/adegbenga-adeye-14003635
 
 
