@@ -6,7 +6,7 @@
 
 ---
 
-**Index:**
+## **INDEX:**
 
 ---
 
@@ -21,7 +21,7 @@
 - **Final words**
  ---
 
-**INTRODUCTION**
+## **INTRODUCTION**
 
 ---
 
@@ -29,7 +29,7 @@ This site is my first milestone project for my course provider - Code Institute.
 
 ---
 
-**UX Design** 
+## **UX DESIGN** 
 
 ---
 I found the following links from recruiters describing the best 35 personal websites ever viewed and the best resume format according to my target audience :
@@ -49,7 +49,7 @@ An example of the index page after the interview of my target audience.
 
 ---
 
-**Website Setup**
+## **MY WEBSITE SETUP**
 
 ---
 
@@ -68,7 +68,7 @@ As I continue to learn about Full Stack Development, I want to create a separate
 
 ---
 
-**Technologies used**
+## **TECHNOLOGIES USED**
 
 ---
 
@@ -118,7 +118,7 @@ for your GitHub or GitLab project with a single click.. https://www.gitpod.io/
 
 ---
 
-**Testing**
+## **TESTING**
 
 ---
 
@@ -137,7 +137,7 @@ for your GitHub or GitLab project with a single click.. https://www.gitpod.io/
 
 ---
 
-**Images**
+## **IMAGES**
 
 ---
 
@@ -150,7 +150,7 @@ https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/man.jpg
 
 ---
 
-**Deployment and Publishing**
+## **DEPLOYMENT & PUBLISHING**
 
 ---
 
@@ -190,7 +190,7 @@ Clone/Download.  Open on your desktop or download zip file to use this code whic
 
 ---
 
-**Acknowledgements**
+## **ACKNOWLEDGEMENTS**
 
 ---
 
@@ -209,7 +209,7 @@ https://ng.linkedin.com/in/adegbenga-adeye-14003635
 
 ---
 
-**Final words**
+## **FINAL WORDS**
 
 ---
 ## **"That's all, coders!"**
