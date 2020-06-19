@@ -445,16 +445,19 @@ p {
 .btn-primary.focus {
  background-color: #000;
  border-color: #fff;
+ color:#fff;
 }
 
 .btn-primary:focus {
  background-color: #000;
  border-color: #fff;
+ color: #fff;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active {
- background-color: #000;
- border-color: #fff;
+ background-color: #fff;
+ border-color: #000;
+ color: #000;
 }
 
 .modal-title {
