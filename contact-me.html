@@ -63,7 +63,7 @@
 
     <!-- Main contents -->
     <div class="container form-container">
-      <!-- The form is setup to be connected to a server in the future. -->
+      <!-- The form needs to be connected to a server in the uncommented code below, when done uncomment code the form-action line 67. -->
       <!--<form action="#" method="post">-->
         <div class="form-group">
           <label for="name">Name:</label
@@ -100,17 +100,20 @@
             required
           ></textarea>
         </div>
+        <!-- delete or uncomment all modal elements once e-mail server is connected-->
         <button
           <button type="submit" 
           class="btn btn-primary"
           data-toggle="modal"
           data-target="#exampleModal"
         >
+        <!-- Once connected to e-mail server change the button text below to SEND-->
           Click me first
         </button>
+      <!--Uncomment line 114 once connected to an e-mail server-->
       <!--</form>-->
     </div>
-    <!-- Modal to show user that form is unavailable-->
+    <!-- Modal -->
     <div
       class="modal fade"
       id="exampleModal"
