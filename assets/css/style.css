@@ -527,7 +527,7 @@ p {
 
 @media all and (max-width: 575.98px) { 
     .display-2 {
-     font-size: 5vmax;
+     font-size: 5.5vmax;
     }
 }
 
@@ -577,7 +577,7 @@ p {
 
 @media all and (max-width: 575.98px) {
   #details-center p  {
-     font-size: 35px; 
+     font-size: 50px; 
     }
 }
 
@@ -619,7 +619,7 @@ p {
 
 @media all and (max-width: 575.98px) {
   .card-body p {
-     font-size: 10px;
+     font-size: 14px;
     }
 }
 
@@ -632,7 +632,7 @@ p {
 
 @media all and (max-width: 575.98px) {
   .card-body a {
-     font-size: 10px;
+     font-size: 14px;
      color:#000;
     }
 }
@@ -645,7 +645,7 @@ p {
 
 @media all and (max-width: 575.98px) {
   .card-body i {
-       font-size: 10px;
+       font-size: 12px;
     }
 }
 
@@ -657,7 +657,7 @@ p {
 
 @media all and (max-width: 575.98px) {
   .personal-col {
-     font-size: 12px;
+     font-size: 14px;
     }
 }
 
@@ -669,7 +669,7 @@ p {
 
 @media all and (max-width: 575.98px) {
   .personal-answers-col {
-     font-size: 12px;
+     font-size: 14px;
     }
 }
 
