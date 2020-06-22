@@ -35,6 +35,7 @@ This site is my first milestone project for my course provider - Code Institute.
 I found the following links from recruiters (my target audience) describing the best 35 personal websites ever viewed and the best resume format:
 
 https://www.themuse.com/advice/the-35-best-personal-websites-weve-ever-seen
+
 https://www.myperfectresume.com/how-to/2018-best-resume-formats-according-to-recruiters
 
 I used this as a baseline to create my website's first wireframe (an example of the index page).  
