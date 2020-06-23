@@ -1,203 +1,366 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
- <head>
-
-<!-- Meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Code Institute-Milestone Project 1: Online resume website using HTML5, CSS3, Bootstrap, Git, Gitpod(IDE), Github.">
-    <meta name="author" content="Jeanne Preece, student at Code Institute Full Stack Development Course 2020.">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Code Institute-Milestone Project 1: Online resume website using HTML5, CSS3, Bootstrap, Git, Gitpod(IDE), Github."
+    />
+    <meta
+      name="author"
+      content="Jeanne Preece, student at Code Institute Full Stack Development Course 2020."
+    />
     <title>JP's Vitae</title>
-
     <!-- Website icon -->
     <link rel="icon" href="assets/image/favicon.ico" />
-
     <!-- External CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      type="text/css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
- </head>
-
-    <!-- Body -->
-    <body>
-
+  <!-- Body -->
+  <body>
     <header>
-	 <div class="container-fluid fixed-top">
-	  <div class="row">
-		<div class="col">					
-		<h1 class="display-2"> Details </h1>  		
-		</div>
-        <div class="col-md-auto close-tab">
-		<a target="_self" href="index.html"><i class="fa fa-times-circle" aria-hidden="true" title="Return to Homepage" ></i><span class="sr-only">Close window</span></a>					
-        </div>	
-	    </div>
-	 </div>
-	</header>
-
+      <div class="container-fluid fixed-top details-top">
+        <div class="row">
+          <div class="col">
+            <h1 class="display-2">Details</h1>
+          </div>
+          <div class="col-md-auto close-tab">
+            <a target="_self" href="index.html"
+              ><i
+                class="fa fa-times-circle"
+                aria-hidden="true"
+                title="Return to Homepage"
+              ></i
+              ><span class="sr-only">Close window</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
 
     <!-- Main content -->
-<div class="container-details">
+    <div class="container-details">
       <div class="row align-items-center">
-      <div class="col-sm-12 order-sm-3 col-xl-4 order-xl-1 left-side">   
-        <div class="accordion" id="accordionExample2"> 
-       <div class="card">
-       <div class="card-header" id="headingOne">
-       <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" >
-          Personal </button>
-      </h2>
-     </div>
-
-     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample2">
-      <div class="card-body">
-        <div class="row">
-        <div class="col-4 personal-col">
-	    <p> <strong>Name: </strong><br>
-         <strong>Address: </strong><br>
-         <strong>Contact nr: </strong> <br>
-	     <strong>E-mail:</strong></p></div>					
-      <div class="col-8 personal-answers-col">
-         <p>Joan Poa<br>
-         Dublin, Republic of Ireland <a target="_blank" href="https://en.wikipedia.org/wiki/Republic_of_Ireland" aria-hidden="true"><i class="fa fa-map-marker" aria-hidden="true"></i>
-                                     <span class="sr-only">Republic of Ireland information page</span></a><br>
-		 089 711 4589<br>
-		 joanpoa@bold.com</p></div>
+        <div class="col-sm-12 col-xl-4 order-xl-1 left-side">
+          <div class="accordion" id="accordionParent">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-block text-center"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    Personal<i class="fa fa-arrow-circle-down"></i>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseOne"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#accordionParent"
+              >
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4 personal-col">
+                      <p>
+                        <strong>Name: </strong><br />
+                        <strong>Address: </strong><br />
+                        <strong>Contact nr: </strong> <br />
+                        <strong>E-mail:</strong>
+                      </p>
+                    </div>
+                    <div class="col-8 personal-answers-col">
+                      <p>
+                        Joan Poa<br />
+                        Dublin, Republic of Ireland
+                        <a
+                          target="_blank"
+                          href="https://en.wikipedia.org/wiki/Republic_of_Ireland"
+                          aria-hidden="true"
+                          ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                          <span class="sr-only"
+                            >Republic of Ireland information page</span
+                          ></a
+                        ><br />
+                        089 711 4589<br />
+                        joanpoa@bold.com
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-link btn-block text-center"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Work History<i class="fa fa-arrow-circle-down"></i>
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapseTwo"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordionParent"
+                >
+                  <div class="card-body">
+                    <p>
+                      <strong>
+                        CLUB TRAVEL • 2019 – PRESENT
+                        <a
+                          target="_blank"
+                          href="https://www.clubtravel.ie/"
+                          aria-hidden="true"
+                        >
+                          <i class="fa fa-map-marker" aria-hidden="true"></i>
+                          <span class="sr-only">Club Travel</span></a
+                        ></strong
+                      >
+                      <br />
+                      <strong>Junior Front-End Developer</strong><br />
+                      Solid experience in creating wireframes, storyboards, user
+                      and process flows. Ability to present designs and
+                      solutions. Optimized existing user interface designs.
+                      Working within a team of developers and testers.<br /><br />
+                      <strong>
+                        GIANT • 2016 – 2017
+                        <a
+                          target="_blank"
+                          href="http://giant.ie/animation/"
+                          aria-hidden="true"
+                        >
+                          <i class="fa fa-map-marker" aria-hidden="true"></i>
+                          <span class="sr-only">Giant Animation Studio</span></a
+                        ></strong
+                      ><br />
+                      <strong> Intern</strong><br />
+                      First-hand experience working in a busy animation studio.
+                      Assisted in production line and storyboards.<br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-       </div>
-      </div>
-     </div>
-     
-     <div class="col-sm-12 order-sm-2">
-     <div class="card">
-      <div class="card-header" id="headingTwo">
-      <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Work History </button>
-      </h2>
-     </div>
+        <div class="col-sm-12 col-xl-4 order-xl-2 center-side">
+          <div id="details-center">
+            <p>Jp</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-xl-4 order-xl-3 right-side">
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link btn-block text-center"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  <i class="fa fa-arrow-circle-down right-i"></i>Volunteering
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapseFour"
+              class="collapse"
+              aria-labelledby="headingFour"
+              data-parent="#accordionParent"
+            >
+              <div class="card-body">
+                <p>
+                  <strong
+                    >CoderDojo • 02/02/2020 - PRESENT
+                    <a
+                      target="_blank"
+                      href="https://www.coderdojo.ie/"
+                      aria-hidden="true"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                      <span class="sr-only">CoderDojo</span></a
+                    >
+                  </strong>
+                  <br /><br />
+                  <strong>Volunteer for - </strong>
+                  Robotics program using ELEGOO Penguin Bot Biped Robot Kit V
+                  2.0, teaching Arduino platform for robotics movement and a
+                  LEGO Education Academy certified trainer.
+                </p>
+              </div>
+            </div>
+          </div>
 
-     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample2">
-     <div class="card-body">
-      <p> <strong> CLUB TRAVEL • 2019 – PRESENT  <a target="_blank" href="https://www.clubtravel.ie/" aria-hidden="true"> <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                                 <span class="sr-only">Club Travel</span></a></strong> <br>
-		  <strong>Junior Front-End Developer</strong><br>
-        Solid experience in creating wireframes, storyboards, user and process flows. Ability to present designs and solutions. Optimized existing user interface designs. Working within a team of developers and testers.<br><br>
-
-		 <strong> GIANT • 2016 – 2017 <a target="_blank" href="http://giant.ie/animation/" aria-hidden="true"> <i class="fa fa-map-marker" aria-hidden="true"></i>
-									  <span class="sr-only">Giant Animation Studio</span></a></strong><br>
-		 <strong> Intern</strong><br>
-        First-hand experience working in a busy animation studio. Assisted in production line and storyboards.<br>
-     </p>
-      </div>
-      </div>
-     </div>
-     </div>
+          <div class="col-sm-12">
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-block text-center"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    <i class="fa fa-arrow-circle-down right-i"></i>Education
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionParent"
+              >
+                <div class="card-body">
+                  <p>
+                    <strong>CODE INSTITUTE • 2018 </strong
+                    ><a
+                      target="_blank"
+                      href="https://codeinstitute.net/"
+                      aria-hidden="true"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                      <span class="sr-only">Code Institute</span></a
+                    >
+                    <br /><em>Diploma in Software Development</em><br />
+                    <strong>Disciplines:</strong> HTML/HTML5, CSS/CSS3,
+                    Bootstrap version 4, User Experience Design (UX), Front end
+                    development.<br /><br />
+                    <strong
+                      >Dundalk Institute of Technology • 2015<a
+                        target="_blank"
+                        href="https://www.dkit.ie/"
+                        aria-hidden="true"
+                        ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <span class="sr-only"
+                          >Dundalk Institute of Technology</span
+                        ></a
+                      ></strong
+                    >
+                    <br /><em> Higher Diploma in Science 3D Animation</em><br />
+                    <strong>Disciplines: </strong> Graphic mathematics, Maya,
+                    Blender, Scrum, Agile, Film history, Photography.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-     
-	
-
-    <div class="col-sm-12 order-sm-1 col-xl-4 order-xl-2 center-side">
-     <div id="details-center"> 
-      <p>Jp</p>
-     </div>
     </div>
 
-    <div class="col-sm-12 order-sm-4 col-xl-4 order-xl-3 right-side">
-    <div class="card">
-     <div class="card-header" id="headingThree">
-      <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Education </button>
-      </h2>
-    </div>
+    <!-- Footer -->
 
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample2">
-    <div class="card-body">
-     <p>
-		<strong>CODE INSTITUTE • 2018 </strong><a target="_blank" href="https://codeinstitute.net/" aria-hidden="true"><i class="fa fa-map-marker" aria-hidden="true"></i>
-                                               <span class="sr-only">Code Institute</span></a>
-		<br><em>Diploma in Software Development</em><br>
-		<strong>Disciplines:</strong> HTML/HTML5, CSS/CSS3, Bootstrap version 4, User Experience Design (UX), Front end development.<br><br>
-		<strong>Dundalk Institute of Technology • 2015<a target="_blank" href="https://www.dkit.ie/" aria-hidden="true"><i class="fa fa-map-marker" aria-hidden="true"></i>
-                                                      <span class="sr-only">Dundalk Institute of Technology</span></a></strong>
-        <br><em> Higher Diploma in Science 3D Animation</em><br>
-		<strong>Disciplines: </strong> Graphic mathematics, Maya, Blender, Scrum, Agile, Film history, Photography.
-     </p>
-    </div>
-    </div>
-   </div>
-   
+    <footer class="footer fixed-bottom details-bottom">
+      <div class="row">
+        <div class="d-none d-xl-block col-xl-4 order-xl-1 about-footer-heading">
+          <p class="inline-block">
+            I am a Front-End Developer based in Ireland. I am skilled in
+            everything from HTML to Bootstrap. I have a passion to design,
+            develop, create and elevate the user experience.
+          </p>
+        </div>
+        <div class="col-xl-4 order-xl-2 social-footer-heading">
+          <ul class="social-links d-inline-flex">
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.facebook.com/">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span></a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.linkedin.com/">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <span class="sr-only">Linkedin</span></a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.instagram.com/">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div
+          class="d-none d-xl-block col-xl-4 order-xl-3 download-footer-heading"
+        >
+          <a href="JP-CV.pdf" target="_blank" class="cv-pdf"
+            ><i class="fa fa-download" aria-hidden="true"></i
+            ><span class="sr-only">Download only</span></a
+          >
+          <p>Need a printable version of my CV? Click above.</p>
+        </div>
+      </div>
+    </footer>
 
-  <div class="col-sm-12 order-sm-5">
-  <div class="card">
-    <div class="card-header" id="headingFour">
-      <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          Volunteering </button>
-      </h2>
-    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample2">
-      <div class="card-body">
-      <p>
-		<strong>CoderDojo  • 02/02/2020 - PRESENT <a target="_blank" href="https://www.coderdojo.ie/" aria-hidden="true"><i class="fa fa-map-marker" aria-hidden="true"></i>
-                                                  <span class="sr-only">CoderDojo</span></a> </strong>
-        <br><br>
-		<strong>Volunteer for -  </strong>
-		Robotics program using ELEGOO Penguin Bot Biped Robot Kit V 2.0, teaching Arduino platform for robotics movement and a LEGO Education Academy certified trainer.</p>
-     </div>
-    </div>
-    </div>
-   </div>
-    </div>
-  </div>
-    </div>
- <!-- Footer -->
-
-  <footer class="footer fixed-bottom">
-  <div class="row">
-   <div class="d-none d-xl-block col-xl-4 order-xl-1 about-footer-heading">						
-	<p class="inline-block">
-	I am a Front-End Developer based in Ireland. I am skilled in everything from HTML to Bootstrap. I have a passion to design, develop, create and elevate the user experience.</p>
-	</div>
-						
-  <div class="col-xl-4 order-xl-2  social-footer-heading">
-    <ul class="social-links d-inline-flex">
-    	<li class="list-inline-item">
-		<a target="_blank" href="https://www.facebook.com/">
-		<i class="fa fa-facebook" aria-hidden="true"></i>
-		<span class="sr-only">Facebook</span></a>
-		</li>
-
-		<li class="list-inline-item">
-		<a target="_blank" href="https://www.linkedin.com/">
-		<i class="fa fa-linkedin" aria-hidden="true"></i>
-		<span class="sr-only">Linkedin</span></a>
-		</li>
-
-		<li class="list-inline-item">
-		<a target="_blank" href="https://www.instagram.com/">
-		<i class="fa fa-instagram" aria-hidden="true"></i>
-		<span class="sr-only">Instagram</span></a>
-		</li>
-    </ul>
-  </div>   
-
-  <div class="d-none d-xl-block col-xl-4 order-xl-3 download-footer-heading">
-	<a href="JP-CV.pdf" target="_blank" class="cv-pdf"><i class="fa fa-download" aria-hidden="true"></i><span class="sr-only">Download only</span></a>
-    <p>Need a printable version of my CV? Click above.</p>					
-  </div>   
- </div>
- </footer>
-
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
- </body>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src=" https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".collapse").on("show.bs.collapse", function (e) {
+          $(".collapse").collapse("hide");
+        });
+      });
+    </script>
+  </body>
 </html>
