@@ -165,7 +165,7 @@ for your GitHub or GitLab project with a single click.. https://www.gitpod.io/
 **4.** Manual testing - 
 * All links and buttons were tested one at a time manually.
 * The published website was manually tested on ~
-  * IPhone
+  * IPhone 
   * Tablet (vertical layout like reading a book)
   * Laptop
   * Desktop
