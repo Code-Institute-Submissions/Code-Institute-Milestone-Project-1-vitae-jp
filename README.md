@@ -72,7 +72,7 @@ An example of the index page after the interview of my target audience.
 
 **Setup** - Header has a title of the page and a closing tab to the Index/Home page. (This is a resume page based on the information that is also available on the donwloadable CV). The main contents is information which is separated into accordions in 3 columns. The middle section is animated initials of the applicant.  Below in the footer- about me column, social links column, download CV pdf column. 
 
-**User experience setup** - The header is the same font as the main title (continuity), which shows the user which link they are in. The closing tab is the same setup as on the Portfolio and Reviews page. The main contents is accordions, the user clicks on the titles, information collapses down and closes when clicked on again. I wanted to separate the information to ensure that there was not too much information on the page which might overwelm the reader/user. The middle column is animated initials of the applicant with a strong font to again draw the attention of the user to the middle of the page, ensuring that the user will see the accordion tabs next to it. To ensure continuity, like the Home page, the colour theme continues. Below the main contents, again 3 items. The footer is the same format as on the Portfolio and Reviews page.
+**User experience setup** - The header is the same font as the main title (continuity), which shows the user which link they are in. The closing tab is the same setup as on the Portfolio and Reviews page. The main contents is accordions, the user clicks on the titles, information collapses down and closes when clicked on again. I wanted to separate the information to ensure that there was not too much information on the page which might overwelm the reader/user. The middle column is animated initials of the applicant with a strong font to again draw the attention of the user to the middle of the page, ensuring that the user will see the accordion tabs next to it. There are also arrow icons to indicate a link to click on. For continuity again the icons rotate like the social links in the social footer. The accordion also allows the user to click the next tab without closing the tab they just viewed. To ensure continuity, like the Home page, the colour theme continues. Below the main contents, again 3 items. The footer is the same format as on the Portfolio and Reviews page.
 
 ### **Contact me page**: 
 
@@ -160,6 +160,13 @@ for your GitHub or GitLab project with a single click.. https://www.gitpod.io/
 <img src="assets/image/ami-responsive-all-pages-test.png" height="300" width="800">
 <img src="assets/image/ami-responsive-mobile-test.png" height="300" width="800">
 
+**4.** Manual testing - 
+* All links and buttons were tested one at a time manually.
+* The published website was manually tested on ~
+  * Iphone
+  * Tablet
+  * Laptop
+  * Desktop
 ---
 
 ## **IMAGES**
@@ -223,16 +230,22 @@ Clone/Download.  Open on your desktop or download zip file to use or view this c
 
 ---
 
-1. The StackOverflow community with helping with vertical alignment. https://stackoverflow.com/
+1. The StackOverflow community with helping with vertical alignment. 
+https://stackoverflow.com/questions/42187838/how-to-vertically-center-a-div-on-page
+    
+    And a shout out to https://stackoverflow.com/users/3588080/phuwin, who had the exact issue I was struggling with. Bootstrap4's accordion example has 3 accordion tabs in, I added a fouth which never collapsed when another tab was clicked. In JavaScript all of the accordions were children of the accordion parent. (I know very little of JavaScript however this issue of accordion children and their parent became an obsession.) It was frustrating as only 3 of the 4 accordions behaved correctly. This stackoverflow user, phuwin, figured it out. https://stackoverflow.com/questions/42413244/accordion-doesnt-work-in-bootstrap-4-collapse.
 
-2. The Code Institute's projects':
+2. This website help me identify which card elements to use in the accordion card header buttons with icons which transform. Never used the .fa class before, always the icon elements. I wanted the icons to rotate differently on the left side and right side of the screen.
+https://disjfa.github.io/bootstrap-tricks/card-collapse-tricks/
+
+3. The Code Institute's projects':
     * Love Running
     * Whiskey Drop
     * Rosie Odenkirk resume,
     
     which really created the foundation for this website. https://codeinstitute.net/
 
-3. My mentor - Adegbenga Adeye, who really gave good advice about utilizing Bootstrap, motivated to see his students succeed.
+4. My mentor - Adegbenga Adeye, who really gave good advice about utilizing Bootstrap, motivated to see his students succeed. (My mentor caught that the accordion was not working properly). 
 https://ng.linkedin.com/in/adegbenga-adeye-14003635
 
 
