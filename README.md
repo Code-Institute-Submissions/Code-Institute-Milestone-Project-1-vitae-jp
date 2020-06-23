@@ -89,7 +89,9 @@ An example of the index page after the interview of my target audience.
 
 3. When I have more experience in JavaScript, Python, (etc), I want to create a separate page for coding and contributions.
 
-4. As I continue my studies, there will always be room for improvement and as such this project will continue to grow and upgrade.
+4. The tablet design is based on the rotation of book, vertical. Would like to add screen rotation, so when the user opens the website on a tablet it is viewable landscape or portrait.
+
+5. As I continue my studies, there will always be room for improvement and as such this project will continue to grow and upgrade.
 
 ---
 
@@ -163,8 +165,8 @@ for your GitHub or GitLab project with a single click.. https://www.gitpod.io/
 **4.** Manual testing - 
 * All links and buttons were tested one at a time manually.
 * The published website was manually tested on ~
-  * Iphone
-  * Tablet
+  * IPhone
+  * Tablet (vertical layout like reading a book)
   * Laptop
   * Desktop
 ---
