@@ -531,7 +531,7 @@ p {
 
 @media all and (max-width: 575.98px) { 
     a {
-      font-size: 4vmax;
+      font-size: 3.5vmax;
     }
 }
 
@@ -800,6 +800,8 @@ p {
     }
 }
 
+/*-- Footer in details.html --*/
+
 @media all and (max-width: 575.98px) { 
     .details-top  {
      overflow: scroll;
@@ -858,13 +860,6 @@ p {
      padding-left: 3px;
      margin-right: 5px;
      margin-left: 5px;
-    }
-}
-
-@media (max-width: 991.98px) {
-    .order-sm-1 {
-     order: -1;
-     padding-bottom: 0;
     }
 }
 
