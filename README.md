@@ -231,8 +231,8 @@ https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/man.jpg
 
 <img src="assets/image/published-site-github.png" height="400" width="800">
 
-**9.** To deploy, return to the code tab (first in list) and select
-Clone/Download.  Open on your desktop or download zip file to use or view this code which created my project.
+**9.** To view or use the code, return to the code tab (first in list) and select
+Clone/Download.  Open on your desktop or download zip file for this project.
 
 <img src="assets/image/deployment.png" height="300" width="800">
 
