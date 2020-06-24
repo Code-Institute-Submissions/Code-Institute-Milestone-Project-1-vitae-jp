@@ -2,7 +2,8 @@
 
 # Code Institute Milestone Project 1 by JP
 
-<img src="assets/image/jp-vitae-resume-screenshot.png" height="400" width="600">
+
+<img src="assets/image/ami-responsive-all-pages-test.png" height="300" width="800">
 
 ---
 
@@ -169,7 +170,6 @@ for your GitHub or GitLab project with a single click.. https://www.gitpod.io/
 
 **3.** Ami Responsive Design: I used this to ensure that my website was responsive on all devices. http://ami.responsivedesign.is/ 
 
-<img src="assets/image/ami-responsive-all-pages-test.png" height="300" width="800">
 <img src="assets/image/ami-responsive-mobile-test.png" height="300" width="800">
 
 **4.** Manual testing - 
