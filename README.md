@@ -80,7 +80,7 @@ An example of the index page after the interview of my target audience.
 
 **User experience setup** - The header is the same font as the main title (continuity), which shows the user which link they are in. The closing tab is the same setup as on the Portfolio and Reviews page. The main contents is a form to be filled in by the user. To ensure that the user does not have a bad experience by filling in the form only to discover upon submission that it does not work and receives a 500 error, I have used a modal pop-up message to inform the user to click on this button first, informing the user the service is unavailable and alternative ways to contact the applicant. To ensure continuity, like the Home page, the colour theme continues. Below the main contents, again 3 items. The footer is the same format as on the Portfolio and Reviews page.
 
-**Note** - *Mobile phones and tablets ~*
+**Note** -  *Mobile phones and tablets*
 
 On mobile devices the footer only displays one of the columns on the Portfolio, Details and Contact me pages.  I have rotated them so the mobile user will be able to read all the footer 
 sections, unlike the desktop user which sees all 3 columns displayed in the footer  all the time.
@@ -95,11 +95,11 @@ For continuity between the pages the following main contents layout is followed:
 **Future features** - 
 1. To connect a database to the form page and receive e-mails from the users.  
                       
-2. In the event that another developer needs to use this project, I left uncommented codes on the Contact me html page: where the server should be connected, where the modal must be removed or uncommented in the events of the service becoming unavailable in the future and to change the submit button text back to 'send'.
+2. In the event that another developer needs to use this project, I left uncommented codes on the Contact me html page: where the e-mail server should be connected, where the modal must be removed or uncommented in the events of the service becoming unavailable in the future and to change the submit button text back to 'send'.
 
 3. When I have more experience in JavaScript, Python, (etc), I want to create a separate page for coding and contributions.
 
-4. The tablet design is based on the rotation of book, vertical. Would like to add screen rotation, so when the user opens the website on a tablet it is viewable landscape or portrait.
+4. The tablet design orientation is based on reading a book (vertical). I would like to add screen rotation, so when the user opens the website on a tablet it is viewable landscape or portrait.
 
 5. As I continue my studies, there will always be room for improvement and as such this project will continue to grow and upgrade.
 
@@ -114,7 +114,7 @@ For continuity between the pages the following main contents layout is followed:
 **2.** CSS3: Language used to make the website look appealing.
 https://www.w3.org/Style/CSS/Overview.en.html
 
-**3.** Bootstrap: The world’s most popular framework for building responsive, mobile-first sites. I used a few of its features to create this website for example: carousel, accordion, fixed-top, fixed-bottom, img-fluid, navbar collapse/expand, form, modal, close icon, rows, columns, containers,displays. https://getbootstrap.com/
+**3.** Bootstrap: The world’s most popular framework for building responsive, mobile-first sites. I used a few of its features to create this website for example: carousel, accordion, fixed-top, fixed-bottom, img-fluid, navbar collapse/expand, form, modal, close icon, rows, columns, containers, displays. https://getbootstrap.com/
 
 **4.** Gitpod: An online IDE ready-to-code dev environments
 for your GitHub or GitLab project with a single click.. https://www.gitpod.io/
@@ -186,7 +186,7 @@ for your GitHub or GitLab project with a single click.. https://www.gitpod.io/
 ---
 
 The images I used are from Code Institute's project Love Running. 
-I do not own this images, it was used for educational purposes.
+I do not own these images, it was used for educational purposes.
 
 http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg
 https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png
@@ -245,9 +245,9 @@ Clone/Download.  Open on your desktop or download zip file to use or view this c
 1. The StackOverflow community with helping with vertical alignment. 
 https://stackoverflow.com/questions/42187838/how-to-vertically-center-a-div-on-page
     
-    And a shout out to https://stackoverflow.com/users/3588080/phuwin, who had the exact issue I was struggling with. Bootstrap4's accordion example has 3 accordion tabs in, I added a fouth which never collapsed when another tab was clicked. In JavaScript all of the accordions were children of the accordion parent. (I know very little of JavaScript however this issue of accordion children and their parent became an obsession.) It was frustrating as only 3 of the 4 accordions behaved correctly. This stackoverflow user, phuwin, figured it out. https://stackoverflow.com/questions/42413244/accordion-doesnt-work-in-bootstrap-4-collapse.
+    And a shout out to https://stackoverflow.com/users/3588080/phuwin, who had the a similar issue I was struggling with. Bootstrap4's accordion example has 3 accordion tabs, I added a fourth. The third tab never collapsed when another tab was clicked. In JavaScript all of the accordions were children of the accordion parent. (I know very little of JavaScript however this issue of accordion children and their parent became an obsession.) It was frustrating as only 3 of the 4 accordions behaved correctly. This stackoverflow user, phuwin, figured it out. https://stackoverflow.com/questions/42413244/accordion-doesnt-work-in-bootstrap-4-collapse.
 
-2. This website help me identify which card elements to use in the accordion card header buttons with icons which transform. Never used the .fa class before, always the icon elements. I wanted the icons to rotate differently on the left side and right side of the screen.
+2. This website help me identify which card elements to use in the accordion card header buttons with icons to rotate. Never used the .fa class before, always the icon elements. I wanted the icons to rotate differently on the left side to right side.
 https://disjfa.github.io/bootstrap-tricks/card-collapse-tricks/
 
 3. The Code Institute's projects':
@@ -257,7 +257,7 @@ https://disjfa.github.io/bootstrap-tricks/card-collapse-tricks/
     
     which really created the foundation for this website. https://codeinstitute.net/
 
-4. My mentor - Adegbenga Adeye, who really gave good advice about utilizing Bootstrap, motivated to see his students succeed. (My mentor caught that the accordion was not working properly). 
+4. My mentor - Adegbenga Adeye, who really gave good advice about utilizing Bootstrap. (My mentor caught that the accordion was not behaving properly, none of my peers caught it). 
 https://ng.linkedin.com/in/adegbenga-adeye-14003635
 
 
