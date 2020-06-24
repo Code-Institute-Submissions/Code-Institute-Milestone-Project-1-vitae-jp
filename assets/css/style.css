@@ -255,17 +255,14 @@ p {
  margin-right: 5px;
  margin-left: 5px;
  margin-bottom: 10px;
- color: #fff;
+}
+
+.card-header .fa {
+  transition: .3s transform ease-in-out;
 }
 
 .card-header .collapsed .fa {
- transform: rotate(90deg);
- color: rgb(224, 177, 107);
-}
-
-.card-header .collapsed .right-i {
- transform: rotate(-90deg);
- color: rgb(224, 177, 107);
+  transform: rotate(180deg);
 }
 
 .btn-link {
@@ -434,9 +431,9 @@ p {
 }
 
 .form-control {
- background-color: #000;
- color: #fff;
- border-color: transparent;
+ background-color: #fff;
+ color: #000;
+ border-color: black;
 }
 
 .form-control::selection {
